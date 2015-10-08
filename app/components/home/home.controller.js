@@ -1,12 +1,12 @@
-(function(){
-    
+(function () {
+
     angular.module('home', [])
-     .controller('homeCtrl', HomeController);
-    
-    HomeController.$inject = [];
-    
-    function HomeController(){
-        
+        .controller('homeCtrl', HomeController);
+
+    HomeController.$inject = ['$scope'];
+
+    function HomeController() {
+
     };
-    
+
 }());
