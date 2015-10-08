@@ -4,7 +4,11 @@
     angular.module('NickPortfolio', ['ngRoute', 
                                      'home', 
                                      'navbar', 
-                                     'footer'])
+                                     'footer',
+                                     'about',
+                                     'skills',
+                                     'interests',
+                                     'contact'])
         .config(Config);
 
     Config.$inject = ['$routeProvider'];
