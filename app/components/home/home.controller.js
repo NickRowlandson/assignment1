@@ -3,12 +3,10 @@
     angular.module('home', [])
      .controller('homeCtrl', HomeController);
     
-    HomeController.$inject = ['$scope'];
+    HomeController.$inject = [];
     
-    function HomeController($scope){
-        $scope.test = function (){
-            return "Banana";
-        };
+    function HomeController(){
+        
     };
     
 }());
