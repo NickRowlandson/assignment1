@@ -3,6 +3,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: #f2ebd7;
 }
 
 a {
@@ -11,4 +12,57 @@ a {
 
 .mainNav {
     padding-bottom: 40px;
+}
+
+.navEdit {
+    background-color: #8f8064 !important;
+    border-color:  #8f8064 !important;   
+}
+
+a {
+    color: #0c1827 !important;
+}
+
+hover {
+    color: #2d4f58 !important;
+}
+
+.bg { 
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.footer {
+    color: #f2ebd7;
+    bottom:25px;
+    position:absolute;
+}
+
+.content {
+    color: #f2ebd7;
+}
+
+.panelEdit {
+    background-color: #c3ba8f !important;
+    padding: 20px;
+    left: 20px;
+    width: 70%;
+    text-align: left;
+    border-color:  #c3ba8f !important;
+}
+
+.legend {
+    color: #2d4f58;
+}
+
+.linkedIn {
+    width: 40px;   
+}
+
+.personalPic {
+    width:280px;
+    border-radius: 5px;
 }

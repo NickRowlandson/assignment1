@@ -15,7 +15,7 @@
 
     function Config($routeProvider) {
         $routeProvider
-            .when('/home', {
+            .when('/', {
                 templateUrl: 'components/home/home.template.html',
                 controller: 'homeCtrl'
             })
@@ -33,7 +33,7 @@
             })
             .when('/contact', {
                 templateUrl: 'components/contact/contact.template.html',
-                controller: 'homeCtrl'
+                controller: 'contactCtrl'
             })
             .otherwise({
                 templateUrl: 'views/404.html'

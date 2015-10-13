@@ -4,7 +4,9 @@
 <head>
     <meta charset="utf-8" lang="en" />
     <link href="assets/css/style.css" rel="stylesheet" />
+    <script src="assets/js/jquery-1.9.1.min.js"></script>
     <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
 
     <script src="app.js"></script>
@@ -18,13 +20,20 @@
 
 </head>
 
-<body>
+<body class="bg">
     <div>
         <div class="mainNav">
             <navbar></navbar>
         </div>
-        <div class="container">
-            <div ng-view></div>
+        <div style="float:left">
+            <img src="assets/img/nickRowlandson.jpg" class="personalPic"/>
+            <h1>Nick Rowlandson</h1>
+            <h3>Computer Programmer</h3>
+        </div>
+        <div class="container" align="right">
+            <div class="panel panelEdit panel-default">
+                <div ng-view></div>
+            </div>
         </div>    
         <footer></footer>
     </div>
