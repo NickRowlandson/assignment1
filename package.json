@@ -1,3 +1,4 @@
+/*
 {
   "name": "app",
   "version": "0.0.0",
@@ -16,5 +17,25 @@
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-webserver": "^0.9.1"
+  }
+}
+*/
+
+{
+  "name": "app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+    "github-flavored-markdown": "*",
+    "less-middleware": "*"
+  },
+  "engines": {
+    "node": "0.8.8",
+    "npm": "1.1.65"
   }
 }
