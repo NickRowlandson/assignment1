@@ -1,3 +1,10 @@
+/*
+Project Name: Assignment 1 (Personal Portfolio)
+By: Nick Rowlandson
+Student ID: 200167125
+
+*/
+
 var express = require('express');
 var bodyParser = require('body-parser');
 

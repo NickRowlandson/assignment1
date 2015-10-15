@@ -1,3 +1,11 @@
+/*
+Project Name: Assignment 1 (Personal Portfolio)
+By: Nick Rowlandson
+Student ID: 200167125
+
+Navbar Controller
+*/
+
 (function () {
 
     angular.module('navbar', [])

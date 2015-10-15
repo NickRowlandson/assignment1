@@ -1,4 +1,10 @@
-//Closure
+/*
+Project Name: Assignment 1 (Personal Portfolio)
+By: Nick Rowlandson
+Student ID: 200167125
+
+*/
+
 (function () {
 
     angular.module('NickPortfolio', ['ngRoute', 
