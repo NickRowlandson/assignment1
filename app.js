@@ -5,7 +5,7 @@
                                      'home', 
                                      'navbar', 
                                      'footer',
-                                     'about',
+                                     'projects',
                                      'skills',
                                      'interests',
                                      'contact'])
@@ -19,9 +19,9 @@
                 templateUrl: 'components/home/home.template.html',
                 controller: 'homeCtrl'
             })
-            .when('/about', {
-                templateUrl: 'components/about/about.template.html',
-                controller: 'aboutCtrl'
+            .when('/projects', {
+                templateUrl: 'components/projects/projects.template.html',
+                controller: 'projectsCtrl'
             })
             .when('/skills', {
                 templateUrl: 'components/skills/skills.template.html',

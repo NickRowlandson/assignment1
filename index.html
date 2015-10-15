@@ -13,7 +13,7 @@
     <script src="components/home/home.controller.js"></script>
     <script src="components/navbar/navbar.controller.js"></script>
     <script src="components/footer/footer.controller.js"></script>
-    <script src="components/about/about.controller.js"></script>
+    <script src="components/projects/projects.controller.js"></script>
     <script src="components/interests/interests.controller.js"></script>
     <script src="components/skills/skills.controller.js"></script>
     <script src="components/contact/contact.controller.js"></script>
@@ -25,12 +25,14 @@
         <div class="mainNav">
             <navbar></navbar>
         </div>
-        <div style="float:left">
+        <div class="col-md-4" style="margin-top:40px;">
             <img src="assets/img/nickRowlandson.jpg" class="personalPic"/>
-            <h1>Nick Rowlandson</h1>
-            <h3>Computer Programmer</h3>
+            <div class="customWellPic">
+              <h1><strong>Nick Rowlandson</strong></h1>
+              <h3>Computer Programmer</h3>
+            </div>
         </div>
-        <div class="container" align="right">
+        <div class="col-md-8" >
             <div class="panel panelEdit panel-default">
                 <div ng-view></div>
             </div>

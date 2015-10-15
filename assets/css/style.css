@@ -1,13 +1,13 @@
 @import url("../../bower_components/bootstrap/dist/css/bootstrap.css");
     
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
     color: #f2ebd7;
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
 }
 
 .mainNav {
@@ -15,24 +15,16 @@ a {
 }
 
 .navEdit {
-    background-color: #8f8064 !important;
-    border-color:  #8f8064 !important;   
-}
-
-a {
-    color: #0c1827 !important;
-}
-
-hover {
-    color: #2d4f58 !important;
+    background-color: #c3ba8f !important;
+    border-color: #c3ba8f !important;   
 }
 
 .bg { 
-  background: url(../img/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(../img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .footer {
@@ -46,16 +38,11 @@ hover {
 }
 
 .panelEdit {
-    background-color: #c3ba8f !important;
+    background-color: #8f8064 !important;
     padding: 20px;
-    left: 20px;
-    width: 70%;
+    margin-top: 80px;
     text-align: left;
-    border-color:  #c3ba8f !important;
-}
-
-.legend {
-    color: #2d4f58;
+    border-color: #8f8064 !important;
 }
 
 .linkedIn {
@@ -65,4 +52,24 @@ hover {
 .personalPic {
     width:280px;
     border-radius: 5px;
+}
+
+.customWellPic {
+    background-color: #c3ba8f;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: #333333;
+    width: 280px;
+}
+
+.customWell {
+    background-color: #c3ba8f;
+    padding:20px;
+    border-radius: 5px;
+    color: #333333;
+}
+.imgBorder {
+    border-radius: 40px;
+    padding: 20px;
 }
